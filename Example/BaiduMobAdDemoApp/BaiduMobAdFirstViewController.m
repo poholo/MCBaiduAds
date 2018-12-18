@@ -7,8 +7,10 @@
 //
 
 #import "BaiduMobAdFirstViewController.h"
-#import "BaiduMobAdSDK/BaiduMobAdView.h"
-#import "BaiduMobAdSDK/BaiduMobAdSetting.h"
+
+#import <BaiduMobAdSDK/BaiduMobAdView.h>
+#import <BaiduMobAdSDK/BaiduMobAdSetting.h>
+
 #import "XScreenConfig.h"
 
 @implementation BaiduMobAdFirstViewController

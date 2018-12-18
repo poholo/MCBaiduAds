@@ -8,11 +8,12 @@
 
 #import "BaiduMobAdPrerollNativeViewController.h"
 
-#import "BaiduMobAdSDK/BaiduMobAdSetting.h"
-#import "BaiduMobAdSDK/BaiduMobAdPrerollNative.h"
-#import "BaiduMobAdSDK/BaiduMobAdPrerollNativeAdObject.h"
-#import "BaiduMobAdSDK/BaiduMobAdPrerollNativeView.h"
-#import "BaiduMobAdSDK/BaiduMobAdNativeVideoView.h"
+#import <BaiduMobAdSDK/BaiduMobAdSetting.h>
+#import <BaiduMobAdSDK/BaiduMobAdPrerollNative.h>
+#import <BaiduMobAdSDK/BaiduMobAdPrerollNativeAdObject.h>
+#import <BaiduMobAdSDK/BaiduMobAdPrerollNativeView.h>
+#import <BaiduMobAdSDK/BaiduMobAdNativeVideoView.h>
+
 #import "XScreenConfig.h"
 
 @interface BaiduMobAdPrerollNativeViewController () <BaiduMobAdPrerollNativeDelegate>

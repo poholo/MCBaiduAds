@@ -7,8 +7,10 @@
 //
 
 #import "CpuChannelViewController.h"
-#import "BaiduMobAdSDK/BaiduMobCpuInfoManager.h"
-#import "BaiduMobAdSDK/BaiduMobAdCommonConfig.h"
+
+#import <BaiduMobAdSDK/BaiduMobCpuInfoManager.h>
+#import <BaiduMobAdSDK/BaiduMobAdCommonConfig.h>
+
 #import "XScreenConfig.h"
 
 @interface CpuChannelViewController ()

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaiduMobAdSDK/BaiduMobAdDelegateProtocol.h"
+
+#import <BaiduMobAdSDK/BaiduMobAdDelegateProtocol.h>
 
 #define kBannerSize_20_3 @"3722589"
 #define kBannerSize_3_2 @"3722694"

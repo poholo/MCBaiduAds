@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaiduMobAdSDK/BaiduMobAdInterstitial.h"
 
-@interface BaiduMobAdNormalInterstitialViewController : UIViewController
-<BaiduMobAdInterstitialDelegate>
+#import <BaiduMobAdSDK/BaiduMobAdInterstitial.h>
 
-@property (nonatomic, retain) BaiduMobAdInterstitial *interstitialAdView;
+@interface BaiduMobAdNormalInterstitialViewController : UIViewController <BaiduMobAdInterstitialDelegate>
+
+@property(nonatomic, retain) BaiduMobAdInterstitial *interstitialAdView;
 
 @end

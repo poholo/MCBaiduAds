@@ -7,8 +7,10 @@
 //
 
 #import "HybridViewController.h"
+
 #import <WebKit/WebKit.h>
-#import "BaiduMobAdSDK/BaiduMobAdHybridAdManager.h"
+#import <BaiduMobAdSDK/BaiduMobAdHybridAdManager.h>
+
 @interface HybridViewController ()<WKNavigationDelegate, BaiduMobAdHybridAdManagerDelegate>
 @property (nonatomic, retain) BaiduMobAdHybridAdManager *manager;
 @property (nonatomic, retain) WKWebView *wkWebView;

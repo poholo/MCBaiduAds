@@ -15,21 +15,9 @@
 		AD4C95301CA26AFB007BEB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4C952E1CA26AFB007BEB0F /* Main.storyboard */; };
 		AD4C95321CA26AFB007BEB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4C95311CA26AFB007BEB0F /* Assets.xcassets */; };
 		AD4C95351CA26AFB007BEB0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4C95331CA26AFB007BEB0F /* LaunchScreen.storyboard */; };
-		AD4D69F01CF2F66500FB56E5 /* baidumobadsdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD4D69EF1CF2F66500FB56E5 /* baidumobadsdk.bundle */; };
 		AD63455B208D6F54009CB253 /* HybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD63455A208D6F54009CB253 /* HybridViewController.m */; };
-		AD63455D208DB6B4009CB253 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEC968A1D892B87003E855E /* CoreMedia.framework */; };
-		AD63455E208DB6C9009CB253 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA3CC6F1CA90C9D009CE580 /* MessageUI.framework */; };
-		AD63455F208DB713009CB253 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA294C641DD0A3BC002FF6E3 /* SafariServices.framework */; };
 		ADA3CC5F1CA909C2009CE580 /* BaiduMobAdFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA3CC5C1CA909C2009CE580 /* BaiduMobAdFirstViewController.m */; };
 		ADA3CC601CA909C2009CE580 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA3CC5E1CA909C2009CE580 /* MainTableViewController.m */; };
-		ADA3CC641CA90C74009CE580 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA3CC631CA90C74009CE580 /* AVFoundation.framework */; };
-		ADA3CC6E1CA90C98009CE580 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA3CC6D1CA90C98009CE580 /* AdSupport.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		ADA3CC721CA90CA4009CE580 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA3CC711CA90CA4009CE580 /* CoreTelephony.framework */; };
-		ADA3CC741CA90CA9009CE580 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA3CC731CA90CA9009CE580 /* CoreLocation.framework */; };
-		ADA3CC761CA90CB4009CE580 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA3CC751CA90CB4009CE580 /* SystemConfiguration.framework */; };
-		ADA3CC781CA90CBB009CE580 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA3CC771CA90CBB009CE580 /* CoreMotion.framework */; };
-		ADD851941CD229A200748144 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD851931CD229A200748144 /* libc++.tbd */; };
-		ADD851961CD22D1D00748144 /* BaiduMobAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADD851951CD22D1D00748144 /* BaiduMobAdSDK.framework */; };
 		ADE125F61DE2E52100972400 /* BaiduMobAdPrerollNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE125F51DE2E52100972400 /* BaiduMobAdPrerollNativeViewController.m */; };
 		ADE26A331CFC3A260024E5E2 /* NativeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE26A321CFC3A260024E5E2 /* NativeTableViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		BA42BD4B1DFF9D9E008DF03F /* CpuChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA42BD491DFF9D9E008DF03F /* CpuChannelViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
@@ -40,8 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A66613E920546BCBC6B0666 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1A666D7CCE457DAFE0C86D26 /* MCBaiduAds.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; name = MCBaiduAds.podspec; path = ../MCBaiduAds.podspec; sourceTree = "<group>"; };
 		8E8DEC241FEBC86500B188E0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		8EC4DC6A1FE6CE5B00240465 /* XScreenConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XScreenConfig.h; sourceTree = "<group>"; };
+		A0D3B5B9B49C712ACDEF36D1 /* Pods-BaiduMobAdDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMobAdDemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiduMobAdDemoApp/Pods-BaiduMobAdDemoApp.release.xcconfig"; sourceTree = "<group>"; };
 		AD3EF9072063697A00A00041 /* NativeVideoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeVideoTableViewController.h; sourceTree = "<group>"; };
 		AD3EF9082063697A00A00041 /* NativeVideoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeVideoTableViewController.m; sourceTree = "<group>"; };
 		AD3F466A1CE2E15E0094388E /* BaiduMobAdPrerollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdPrerollViewController.h; sourceTree = "<group>"; };
@@ -54,7 +45,6 @@
 		AD4C95311CA26AFB007BEB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD4C95341CA26AFB007BEB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD4C95361CA26AFB007BEB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD4D69EF1CF2F66500FB56E5 /* baidumobadsdk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = baidumobadsdk.bundle; sourceTree = "<group>"; };
 		AD634559208D6F54009CB253 /* HybridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HybridViewController.h; sourceTree = "<group>"; };
 		AD63455A208D6F54009CB253 /* HybridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HybridViewController.m; sourceTree = "<group>"; };
 		ADA3CC5B1CA909C2009CE580 /* BaiduMobAdFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdFirstViewController.h; sourceTree = "<group>"; };
@@ -72,8 +62,6 @@
 		ADA3CC731CA90CA9009CE580 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		ADA3CC751CA90CB4009CE580 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		ADA3CC771CA90CBB009CE580 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		ADD851931CD229A200748144 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		ADD851951CD22D1D00748144 /* BaiduMobAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMobAdSDK.framework; path = Frameworks/BaiduMobAdSDK.framework; sourceTree = "<group>"; };
 		ADE125F41DE2E52100972400 /* BaiduMobAdPrerollNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdPrerollNativeViewController.h; sourceTree = "<group>"; };
 		ADE125F51DE2E52100972400 /* BaiduMobAdPrerollNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduMobAdPrerollNativeViewController.m; sourceTree = "<group>"; };
 		ADE26A311CFC3A260024E5E2 /* NativeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeTableViewController.h; sourceTree = "<group>"; };
@@ -90,6 +78,8 @@
 		BA571EC11D0576F500DCDC5D /* InterstitialExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialExampleViewController.m; sourceTree = "<group>"; };
 		BAE36C601DF80FD10018FE06 /* BaiduMobAdDemoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BaiduMobAdDemoApp.entitlements; sourceTree = "<group>"; };
 		BAEC968A1D892B87003E855E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C05D36CD8222C31557281869 /* libPods-BaiduMobAdDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiduMobAdDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E855F4FD3015055E0E05583F /* Pods-BaiduMobAdDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMobAdDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiduMobAdDemoApp/Pods-BaiduMobAdDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,32 +87,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD63455F208DB713009CB253 /* SafariServices.framework in Frameworks */,
-				AD63455E208DB6C9009CB253 /* MessageUI.framework in Frameworks */,
-				AD63455D208DB6B4009CB253 /* CoreMedia.framework in Frameworks */,
-				ADD851961CD22D1D00748144 /* BaiduMobAdSDK.framework in Frameworks */,
-				ADD851941CD229A200748144 /* libc++.tbd in Frameworks */,
-				ADA3CC781CA90CBB009CE580 /* CoreMotion.framework in Frameworks */,
-				ADA3CC761CA90CB4009CE580 /* SystemConfiguration.framework in Frameworks */,
-				ADA3CC741CA90CA9009CE580 /* CoreLocation.framework in Frameworks */,
-				ADA3CC721CA90CA4009CE580 /* CoreTelephony.framework in Frameworks */,
-				ADA3CC6E1CA90C98009CE580 /* AdSupport.framework in Frameworks */,
-				ADA3CC641CA90C74009CE580 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75AC07F7C39770E7BE2919AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E855F4FD3015055E0E05583F /* Pods-BaiduMobAdDemoApp.debug.xcconfig */,
+				A0D3B5B9B49C712ACDEF36D1 /* Pods-BaiduMobAdDemoApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD4C95191CA26AFB007BEB0F = {
 			isa = PBXGroup;
 			children = (
-				ADD851951CD22D1D00748144 /* BaiduMobAdSDK.framework */,
-				AD4D69EF1CF2F66500FB56E5 /* baidumobadsdk.bundle */,
-				ADD851931CD229A200748144 /* libc++.tbd */,
 				AD4C95241CA26AFB007BEB0F /* BaiduMobAdDemoApp */,
 				AD4C95231CA26AFB007BEB0F /* Products */,
 				BA294C631DD0A3BC002FF6E3 /* Frameworks */,
+				75AC07F7C39770E7BE2919AA /* Pods */,
+				1A66613E920546BCBC6B0666 /* README.md */,
+				1A666D7CCE457DAFE0C86D26 /* MCBaiduAds.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				BA294C641DD0A3BC002FF6E3 /* SafariServices.framework */,
+				C05D36CD8222C31557281869 /* libPods-BaiduMobAdDemoApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD4C95391CA26AFB007BEB0F /* Build configuration list for PBXNativeTarget "BaiduMobAdDemoApp" */;
 			buildPhases = (
+				FBC9BD63A9D59987F815D2B6 /* [CP] Check Pods Manifest.lock */,
 				AD4C951E1CA26AFB007BEB0F /* Sources */,
 				AD4C951F1CA26AFB007BEB0F /* Frameworks */,
 				AD4C95201CA26AFB007BEB0F /* Resources */,
+				A9B5B6A551134155984393D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,12 +260,50 @@
 				AD4C95321CA26AFB007BEB0F /* Assets.xcassets in Resources */,
 				BA42BD4C1DFF9D9E008DF03F /* CpuChannelViewController.xib in Resources */,
 				8E8DEC251FEBC86600B188E0 /* logo.png in Resources */,
-				AD4D69F01CF2F66500FB56E5 /* baidumobadsdk.bundle in Resources */,
 				AD4C95301CA26AFB007BEB0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9B5B6A551134155984393D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BaiduMobAdDemoApp/Pods-BaiduMobAdDemoApp-resources.sh",
+				"${PODS_ROOT}/MCBaiduAds/SDK/baidumobadsdk.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/baidumobadsdk.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiduMobAdDemoApp/Pods-BaiduMobAdDemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC9BD63A9D59987F815D2B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaiduMobAdDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD4C951E1CA26AFB007BEB0F /* Sources */ = {
@@ -403,59 +432,57 @@
 		};
 		AD4C953A1CA26AFB007BEB0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E855F4FD3015055E0E05583F /* Pods-BaiduMobAdDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_ENTITLEMENTS = BaiduMobAdDemoApp/BaiduMobAdDemoApp.entitlements;
 				CODE_SIGN_IDENTITY = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Frameworks",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_VERSION = "";
 				INFOPLIST_FILE = BaiduMobAdDemoApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Headers";
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-ObjC",
 					"-lstdc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.mobads.BaiduMobAdSdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 armv7s x86_64 i386 arm64";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Debug;
 		};
 		AD4C953B1CA26AFB007BEB0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D3B5B9B49C712ACDEF36D1 /* Pods-BaiduMobAdDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_ENTITLEMENTS = BaiduMobAdDemoApp/BaiduMobAdDemoApp.entitlements;
 				CODE_SIGN_IDENTITY = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/Frameworks",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_VERSION = "";
 				INFOPLIST_FILE = BaiduMobAdDemoApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Headers";
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-ObjC",
 					"-lstdc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.mobads.BaiduMobAdSdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 armv7s x86_64 i386 arm64";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Release;
 		};

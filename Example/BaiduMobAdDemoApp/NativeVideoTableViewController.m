@@ -1,9 +1,11 @@
 #import "NativeVideoTableViewController.h"
-#import "BaiduMobAdSDK/BaiduMobAdNativeVideoView.h"
-#import "BaiduMobAdSDK/BaiduMobAdNative.h"
-#import "BaiduMobAdSDK/BaiduMobAdNativeAdDelegate.h"
-#import "BaiduMobAdSDK/BaiduMobAdNativeAdObject.h"
-#import "BaiduMobAdSDK/BaiduMobAdNativeAdView.h"
+
+#import <BaiduMobAdSDK/BaiduMobAdNativeVideoView.h>
+#import <BaiduMobAdSDK/BaiduMobAdNative.h>
+#import <BaiduMobAdSDK/BaiduMobAdNativeAdDelegate.h>
+#import <BaiduMobAdSDK/BaiduMobAdNativeAdObject.h>
+#import <BaiduMobAdSDK/BaiduMobAdNativeAdView.h>
+
 #import "XScreenConfig.h"
 
 #define ADID_VIDEO  @"2362914" //信息流-视频

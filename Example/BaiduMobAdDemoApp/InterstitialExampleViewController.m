@@ -7,7 +7,9 @@
 //
 
 #import "InterstitialExampleViewController.h"
-#import "BaiduMobAdSDK/BaiduMobAdInterstitial.h"
+
+#import <BaiduMobAdSDK/BaiduMobAdInterstitial.h>
+
 @interface InterstitialExampleViewController () <BaiduMobAdInterstitialDelegate>
 
 @property (nonatomic, retain) UITextView *textView1;

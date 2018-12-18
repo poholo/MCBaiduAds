@@ -7,12 +7,14 @@
 //
 
 #import "NativeLoopViewController.h"
-#import "BaiduMobAdSDK/BaiduMobAdNativeAdView.h"
-#import "BaiduMobAdSDK/BaiduMobAdNativeAdDelegate.h"
-#import "BaiduMobAdSDK/BaiduMobAdNative.h"
-#import "BaiduMobAdSDK/BaiduMobAdNativeAdObject.h"
-#import "BaiduMobAdSDK/BaiduMobAdNativeVideoView.h"
-#import "BaiduMobAdSDK/BaiduMobAdNativeWebView.h"
+
+#import <BaiduMobAdSDK/BaiduMobAdNativeAdView.h>
+#import <BaiduMobAdSDK/BaiduMobAdNativeAdDelegate.h>
+#import <BaiduMobAdSDK/BaiduMobAdNative.h>
+#import <BaiduMobAdSDK/BaiduMobAdNativeAdObject.h>
+#import <BaiduMobAdSDK/BaiduMobAdNativeVideoView.h>
+#import <BaiduMobAdSDK/BaiduMobAdNativeWebView.h>
+
 #import "XScreenConfig.h"
 
 #define FRAME0 CGRectMake(0, 0, kScreenWidth, kScreenWidth*0.5)
