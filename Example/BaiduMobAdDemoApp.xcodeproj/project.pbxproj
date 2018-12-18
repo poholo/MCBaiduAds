@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8E8DEC251FEBC86600B188E0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E8DEC241FEBC86500B188E0 /* logo.png */; };
+		A2D0EA392405D79F3E3836A3 /* libPods-BaiduMobAdDemoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D1E8352480A30247CFAF16 /* libPods-BaiduMobAdDemoApp.a */; };
 		AD3EF9092063697B00A00041 /* NativeVideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3EF9082063697A00A00041 /* NativeVideoTableViewController.m */; };
 		AD3F466C1CE2E15E0094388E /* BaiduMobAdPrerollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3F466B1CE2E15E0094388E /* BaiduMobAdPrerollViewController.m */; };
 		AD4C95271CA26AFB007BEB0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4C95261CA26AFB007BEB0F /* main.m */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		1A66613E920546BCBC6B0666 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1A666D7CCE457DAFE0C86D26 /* MCBaiduAds.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; name = MCBaiduAds.podspec; path = ../MCBaiduAds.podspec; sourceTree = "<group>"; };
+		71D1E8352480A30247CFAF16 /* libPods-BaiduMobAdDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiduMobAdDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8DEC241FEBC86500B188E0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		8EC4DC6A1FE6CE5B00240465 /* XScreenConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XScreenConfig.h; sourceTree = "<group>"; };
 		A0D3B5B9B49C712ACDEF36D1 /* Pods-BaiduMobAdDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMobAdDemoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiduMobAdDemoApp/Pods-BaiduMobAdDemoApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -51,22 +53,10 @@
 		ADA3CC5C1CA909C2009CE580 /* BaiduMobAdFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduMobAdFirstViewController.m; sourceTree = "<group>"; };
 		ADA3CC5D1CA909C2009CE580 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		ADA3CC5E1CA909C2009CE580 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
-		ADA3CC611CA90AB2009CE580 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ADA3CC631CA90C74009CE580 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		ADA3CC651CA90C7C009CE580 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
-		ADA3CC671CA90C84009CE580 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		ADA3CC691CA90C8B009CE580 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		ADA3CC6D1CA90C98009CE580 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		ADA3CC6F1CA90C9D009CE580 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		ADA3CC711CA90CA4009CE580 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		ADA3CC731CA90CA9009CE580 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		ADA3CC751CA90CB4009CE580 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		ADA3CC771CA90CBB009CE580 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		ADE125F41DE2E52100972400 /* BaiduMobAdPrerollNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobAdPrerollNativeViewController.h; sourceTree = "<group>"; };
 		ADE125F51DE2E52100972400 /* BaiduMobAdPrerollNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduMobAdPrerollNativeViewController.m; sourceTree = "<group>"; };
 		ADE26A311CFC3A260024E5E2 /* NativeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeTableViewController.h; sourceTree = "<group>"; };
 		ADE26A321CFC3A260024E5E2 /* NativeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeTableViewController.m; sourceTree = "<group>"; };
-		BA294C641DD0A3BC002FF6E3 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		BA42BD481DFF9D9E008DF03F /* CpuChannelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CpuChannelViewController.h; sourceTree = "<group>"; };
 		BA42BD491DFF9D9E008DF03F /* CpuChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CpuChannelViewController.m; sourceTree = "<group>"; };
 		BA42BD4A1DFF9D9E008DF03F /* CpuChannelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CpuChannelViewController.xib; sourceTree = "<group>"; };
@@ -77,8 +67,6 @@
 		BA571EC01D0576F500DCDC5D /* InterstitialExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialExampleViewController.h; sourceTree = "<group>"; };
 		BA571EC11D0576F500DCDC5D /* InterstitialExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialExampleViewController.m; sourceTree = "<group>"; };
 		BAE36C601DF80FD10018FE06 /* BaiduMobAdDemoApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BaiduMobAdDemoApp.entitlements; sourceTree = "<group>"; };
-		BAEC968A1D892B87003E855E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		C05D36CD8222C31557281869 /* libPods-BaiduMobAdDemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiduMobAdDemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E855F4FD3015055E0E05583F /* Pods-BaiduMobAdDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMobAdDemoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiduMobAdDemoApp/Pods-BaiduMobAdDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D0EA392405D79F3E3836A3 /* libPods-BaiduMobAdDemoApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,18 +154,6 @@
 		AD4C95251CA26AFB007BEB0F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BAEC968A1D892B87003E855E /* CoreMedia.framework */,
-				ADA3CC771CA90CBB009CE580 /* CoreMotion.framework */,
-				ADA3CC751CA90CB4009CE580 /* SystemConfiguration.framework */,
-				ADA3CC731CA90CA9009CE580 /* CoreLocation.framework */,
-				ADA3CC711CA90CA4009CE580 /* CoreTelephony.framework */,
-				ADA3CC6F1CA90C9D009CE580 /* MessageUI.framework */,
-				ADA3CC6D1CA90C98009CE580 /* AdSupport.framework */,
-				ADA3CC691CA90C8B009CE580 /* WebKit.framework */,
-				ADA3CC671CA90C84009CE580 /* QuartzCore.framework */,
-				ADA3CC651CA90C7C009CE580 /* EventKit.framework */,
-				ADA3CC631CA90C74009CE580 /* AVFoundation.framework */,
-				ADA3CC611CA90AB2009CE580 /* CoreGraphics.framework */,
 				AD4C95261CA26AFB007BEB0F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -185,8 +162,7 @@
 		BA294C631DD0A3BC002FF6E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA294C641DD0A3BC002FF6E3 /* SafariServices.framework */,
-				C05D36CD8222C31557281869 /* libPods-BaiduMobAdDemoApp.a */,
+				71D1E8352480A30247CFAF16 /* libPods-BaiduMobAdDemoApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

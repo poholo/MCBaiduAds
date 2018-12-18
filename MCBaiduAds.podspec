@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
 
     s.vendored_frameworks = 'SDK/BaiduMobAdSDK.framework'
     s.resources = ['SDK/*.{bundle}']
-    s.ios.frameworks = 'AdSupport', 'AVFoundation', 'StoreKit', 'CoreMotion', 'MessageUI', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'SafariServices', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation', 'CFNetwork'
+    s.ios.frameworks = 'AdSupport', 'AVFoundation', 'StoreKit', 'CoreMotion', 'MessageUI', 'CoreLocation', 'CoreTelephony', 'SystemConfiguration', 'SafariServices', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation', 'CFNetwork', 'QuartzCore', 'WebKit', 'EventKit', 'CoreMedia'
+
     s.ios.libraries = 'c++'
 end
