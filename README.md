@@ -21,3 +21,9 @@ Demo添加对iPhoneX的适配
 特别提示：在AppStore提交新应用或发布新版时，请务必更新SDK新版本
 
 ```
+
+# link
+[SDK&DOC](https://mssp.baidu.com/app/static/main.html/sdk)
+
+# license
+MCBaiduAds under MIT license.
